@@ -24,8 +24,6 @@ class HeaderNavigation extends Component {
     alert('selected ' + selectedKey);
   }
 
-
-
   render() {
     let brand = <a href='#'>Lamuel's React-Bootstrap</a>;
     return (
@@ -56,7 +54,7 @@ class HeaderNavigation extends Component {
             <SearchBar className='navbar-form'/>
           </Nav>
           <Nav pullRight>
-              <InlineLogin className='navbar-form' />
+            <InlineLogin className='navbar-form'/>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

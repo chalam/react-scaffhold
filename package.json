@@ -7,10 +7,12 @@
     "bootswatch": "^3.3.7",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-bootstrap": "next",
+    "react-router-dom": "next"
   },
   "devDependencies": {
-    "react-scripts": "1.0.7"
+    "react-scripts": "next"
   },
   "scripts": {
     "start": "react-scripts start",

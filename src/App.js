@@ -9,17 +9,21 @@ import "bootswatch/slate/bootstrap.css";
 import HeaderNavigation from './HeaderNavigation';
 import Footer from './Footer';
 import Body from './Body';
-import JumbotronGrid from './JumbotronGrid';
+
+const Home = () => (
+  <div>
+    <HeaderNavigation/>
+    <Body></Body>
+    <Footer/>
+  </div>
+)
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <HeaderNavigation/>
-        <Body></Body>
-        <JumbotronGrid></JumbotronGrid>
-        <Footer/>
-      </div>
+          <Home/>
+        </div>
     );
   }
 }
