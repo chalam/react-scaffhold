@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import Grid from 'react-bootstrap/lib/Grid';
-// import InlineLogin from './InlineLogin';
+import {
+  Grid,
+} from 'react-bootstrap';
 
 class Footer extends Component {
   constructor(props) {
@@ -8,7 +9,7 @@ class Footer extends Component {
   }
   render() {
     return (
-        <Grid fluid="true">
+        <Grid fluid>
         <hr/>
         <footer>
           <p>© Lamuel 2017</p>

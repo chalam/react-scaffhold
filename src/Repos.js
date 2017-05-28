@@ -1,8 +1,12 @@
-// modules/Repos.js
-import React from 'react'
+import React, {Component} from 'react';
 
-export default React.createClass({
+class Repos extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return <div>Repos</div>
   }
-})
+}
+
+export default Repos;

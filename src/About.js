@@ -1,8 +1,12 @@
-// modules/About.js
-import React from 'react'
+import React, {Component} from 'react';
 
-export default React.createClass({
+class About extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return <div>About</div>
   }
-})
+}
+
+export default About;

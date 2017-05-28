@@ -66,13 +66,13 @@ export default class InlineLogin extends React.Component {
           </FormGroup>
         </Form> */}
 
-        <form className={this.props.className} onSubmit={this.onSubmit} action="">
+        {/* <form className={this.props.className} onSubmit={this.onSubmit} action=""> */}
           <Form inline>
-            <FormControl ref='email' type='text' bsStyle={this.state.emailValid} placeholder='Email' onChange={this.onEmailChange} hasFeedback/>{' '}
+            <FormControl ref='email' type='text' bsStyle={this.state.emailValid} placeholder='Email' onChange={this.onEmailChange}/>{' '}
             <FormControl type='text' placeholder='Password'/>{' '}
             <Button bsStyle='success' type='submit'>Sign in</Button>
           </Form>
-        </form>
+        {/* </form> */}
       </div>
     );
   }

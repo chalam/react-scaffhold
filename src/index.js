@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
 import JumbotronGrid from './JumbotronGrid';
 import Footer from './Footer';
 import HeaderNavigation from './HeaderNavigation';

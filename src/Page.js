@@ -1,18 +1,22 @@
 import React, {Component} from 'react';
-import Button from 'react-bootstrap/lib/Button';
-import Grid from 'react-bootstrap/lib/Grid';
-import Jumbotron from 'react-bootstrap/lib/Jumbotron';
-import Image from 'react-bootstrap/lib/Image';
-import Table from 'react-bootstrap/lib/Table';
-import Tab from 'react-bootstrap/lib/Tab';
-import Tabs from 'react-bootstrap/lib/Tabs';
-import PanelGroup from 'react-bootstrap/lib/PanelGroup';
-import Panel from 'react-bootstrap/lib/Panel';
-import PageHeader from 'react-bootstrap/lib/PageHeader';
 
-import Row from 'react-bootstrap/lib/Row';
-import Col from 'react-bootstrap/lib/Col';
+
 import LearnMore from './LearnMore';
+
+import {
+  Button,
+  Grid,
+  Row,
+  Col,
+  Jumbotron,
+  PageHeader,
+  Panel,
+  PanelGroup,
+  Tab,
+  Tabs,
+  Table,
+  Image
+} from 'react-bootstrap';
 
 // Layout
 // Page Header
@@ -48,27 +52,27 @@ class Page extends Component {
       <div>
         <PageHeader>Page header <small>Subtext for header</small></PageHeader>
 
-        <Grid fluid="true">
-          <Row className="show-grid">
+        <Grid fluid>
+          <Row bsClass="show-grid">
             <Col sm={3}>
               <Image src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" rounded/>
               <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <span className="text-muted">Something else</span>
             </Col>
             <Col sm={3}>
               <Image src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" circle/>
               <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <span className="text-muted">Something else</span>
             </Col>
             <Col sm={3}>
               <Image src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" thumbnail/>
               <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <span className="text-muted">Something else</span>
             </Col>
             <Col sm={3}>
               <Image src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" circle/>
               <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <span className="text-muted">Something else</span>
             </Col>
           </Row>
         </Grid>

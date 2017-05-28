@@ -1,20 +1,21 @@
 import React, {Component} from 'react';
-import Button from 'react-bootstrap/lib/Button';
-import Grid from 'react-bootstrap/lib/Grid';
-import Jumbotron from 'react-bootstrap/lib/Jumbotron';
-import Row from 'react-bootstrap/lib/Row';
-import Col from 'react-bootstrap/lib/Col';
-import LearnMore from './LearnMore';
-import Navbar from 'react-bootstrap/lib/Navbar';
 
-import Clearfix from 'react-bootstrap/lib/Clearfix';
-import Nav from 'react-bootstrap/lib/Nav';
-import NavItem from 'react-bootstrap/lib/NavItem';
-import InputGroupButton from 'react-bootstrap/lib/InputGroupButton';
-import NavDropdown from 'react-bootstrap/lib/NavDropdown';
-import MenuItem from 'react-bootstrap/lib/MenuItem';
-import ListGroup from 'react-bootstrap/lib/ListGroup';
-import ListGroupItem from 'react-bootstrap/lib/ListGroupItem';
+import LearnMore from './LearnMore';
+
+import {
+  Button,
+  Grid,
+  Row,
+  Col,
+  Clearfix,
+  Nav,
+  NavItem,
+  NavDropdown,
+  MenuItem,
+  ListGroup,
+  ListGroupItem
+} from 'react-bootstrap';
+
 class SideBar extends Component {
   constructor(props) {
     super(props);
@@ -54,20 +55,20 @@ class SideBar extends Component {
     return (
       <div>
         <h3>Group one</h3>
-        <Nav sideBar bsStyle="pills" stacked activeKey={1.1} onSelect={this.handleNavSelect}>
+        <Nav bsStyle="pills" stacked activeKey={1.1} onSelect={this.handleNavSelect}>
           <NavItem eventKey={1.1} href="/home">NavItem 1 content</NavItem>
           <NavItem eventKey={1.2} title="Item">NavItem 2 content</NavItem>
           <NavItem eventKey={1.3} disabled>NavItem 3 content</NavItem>
         </Nav>
         <h3>Group two</h3>
-        <Nav sideBar bsStyle="pills" stacked activeKey={2.3} onSelect={this.handleNavSelect}>
+        <Nav bsStyle="pills" stacked activeKey={2.3} onSelect={this.handleNavSelect}>
           <NavItem eventKey={2.1} href="">Nav item</NavItem>
           <NavItem eventKey={2.2} href="">Nav item again</NavItem>
           <NavItem eventKey={2.3} href="">One more nav</NavItem>
           <NavItem eventKey={2.4} href="">Another nav item</NavItem>
           <NavItem eventKey={2.5} href="">Last Nav</NavItem>
         </Nav>
-        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown" expanded>
+        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
           <MenuItem eventKey={3.1}>Action</MenuItem>
           <MenuItem eventKey={3.2}>Another action</MenuItem>
           <MenuItem eventKey={3.3}>Something else here</MenuItem>
