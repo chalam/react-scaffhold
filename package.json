@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@amcharts/amcharts3-react": "^2.0.3",
     "bootstrap": "^3.3.7",
     "bootswatch": "^3.3.7",
     "prop-types": "^15.5.10",

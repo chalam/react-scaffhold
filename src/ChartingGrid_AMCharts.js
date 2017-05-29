@@ -4,6 +4,7 @@ import AmCharts from "@amcharts/amcharts3-react";
 
 'use strict';
 
+// yarn add @amcharts/amcharts3-react@2.0.3
 // Enable script link in index.html
 // See https://github.com/amcharts/amcharts3-react/tree/master/examples/create-react-app
 // Generate random data

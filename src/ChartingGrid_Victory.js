@@ -15,6 +15,9 @@ import {
 
 'use strict';
 
+// // yarn add   "victory@0.20.0"
+// See http://formidable.com/open-source/victory/
+
 class ChartingGrid_Victory extends Component {
 
   render() {
