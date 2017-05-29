@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-
-
-import LearnMore from './LearnMore';
+// import ChartingGrid_Victory from './ChartingGrid_Victory';
+// import ChartingGrid_AMCharts from './ChartingGrid_AMCharts';
+import ChartingGrid_HighCharts from './ChartingGrid_HighCharts';
 
 import {
   Button,
@@ -17,6 +17,8 @@ import {
   Table,
   Image
 } from 'react-bootstrap';
+
+'use strict';
 
 // Layout
 // Page Header
@@ -77,7 +79,7 @@ class Page extends Component {
           </Row>
         </Grid>
 
-        <h2>Sub title</h2>
+        <h2>Tables and Grids</h2>
         <Tabs activeKey={this.state.activeTabKey} onSelect={this.handleTabSelect} id="controlled-tab-example">
           <Tab eventKey={1} title="Tab 1">
             <Table responsive striped bordered condensed hover>
@@ -191,7 +193,11 @@ class Page extends Component {
            </PanelGroup>
           </Tab>
         </Tabs>
-
+        <h2>Charting</h2>
+        {/* <ChartingGrid_AMCharts symbol='GOOG'/> */}
+        {/* <ChartingGrid_Victory symbol='GOOG'/> */}
+        <ChartingGrid_HighCharts symbol='GOOG' />
+        <h2>Graphics</h2>
       </div>
     );
   }

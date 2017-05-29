@@ -10,6 +10,8 @@ import HeaderNavigation from './HeaderNavigation';
 import Footer from './Footer';
 import Body from './Body';
 
+'use strict';
+
 const Home = () => (
   <div>
     <HeaderNavigation/>
